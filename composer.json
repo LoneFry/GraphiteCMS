@@ -1,0 +1,29 @@
+{
+  "name": "graphite/pencil",
+  "description": "Content Management System based on Graphite",
+  "homepage": "https://github.com/LoneFry/GraphitePencil",
+  "require": {
+    "php": "^7.0",
+    "graphite/core": "*",
+    "graphite/barrel": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Graphite\\pencil\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/LoneFry/Graphite"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/LoneFry/GraphiteBarrel"
+    }
+  ]
+}
